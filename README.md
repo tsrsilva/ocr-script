@@ -1,2 +1,2 @@
 # ocr-script
-Um script para reconhecimento de caracteres (OCR) a partir de PDFs
+A script for optical character recognition (OCR) of PDF files.
