@@ -18,7 +18,7 @@ for FILEPATH in $BPATH*.pdf; do
     #  converts the PDF to TIFF and attempts to perform OCR with Tesseract.
     #
     # Path to text file to be created. E.g. ./myfile.txt
-    OUTFILE=$OPATH$(basename $FILEPATH).txt
+    OUTFILE=$OPATH$(basename "$FILEPATH").txt
     touch "$OUTFILE"    # The text file will be created regardless of whether
                         #  text is successfully extracted.
     # First attempt ot use pdftotext to extract embedded text.
