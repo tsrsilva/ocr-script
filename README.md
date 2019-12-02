@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/tsrsilva/ocr-script.svg?branch=master)](https://travis-ci.com/tsrsilva/ocr-script)
-[![codecov.io](https://codecov.io/github/tsrsilva/ocr-script/coverage.svg?branch=master)](https://codecov.io/github/tsrsilva/ocr-script?branch=master)
+[![codecov](https://codecov.io/gh/tsrsilva/ocr-script/branch/master/graph/badge.svg)](https://codecov.io/gh/tsrsilva/ocr-script)
 ![MIT license](https://img.shields.io/github/license/tsrsilva/ocr-script)
 
 # OCR script
