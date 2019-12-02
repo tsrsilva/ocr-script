@@ -9,6 +9,7 @@ A shell script for optical character recognition (OCR) of PDF files.
   * [Configuration](#configuration)
   * [Running](#running)
     * [Windows](#run_windows)
+    * [Unix](#run_unix)
   * Issues
 
 <a name="dependencies"></a>
@@ -47,8 +48,38 @@ in the Command Prompt and PowerShell.
 To execute the script, open the **Command Prompt** or **PowerShell** and navigate to
 the folder where the script file is available. Then, type
 
-```bash
+```
 bash ocr.sh
 ```
 
 and hit enter.
+
+<a name="run_unix"></a>
+### Unix
+
+To run the ocr script in Unix-based operating systems (*i.e.* macOS and Linux) you just need to
+set execute permissions to the file and run it using **bash**.
+
+To set execute permissions type
+
+```
+chmod +x ocr-script.sh
+```
+
+and run it using
+
+```
+./ocr-script.sh
+```
+
+or
+
+```
+sh ocr-script.sh
+```
+
+or
+
+```
+bash ocr-script.sh
+```
