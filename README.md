@@ -2,3 +2,13 @@
 
 # OCR script
 A shell script for optical character recognition (OCR) of PDF files.
+
+
+## Table of Contents
+  * Installation
+  * Usage
+  * Issues
+
+## Installation
+
+  * In Linux
