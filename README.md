@@ -10,7 +10,7 @@ A shell script for optical character recognition (OCR) of PDF files.
   * [Running](#running)
     * [Windows](#run_windows)
     * [Unix](#run_unix)
-  * Issues
+  * [Issues](#issues)
 
 <a name="dependencies"></a>
 ## Dependencies
@@ -83,3 +83,7 @@ or
 ```
 bash ocr-script.sh
 ```
+
+<a name="issues"></a>
+### Issues
+
