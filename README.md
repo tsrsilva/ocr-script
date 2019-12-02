@@ -5,10 +5,25 @@ A shell script for optical character recognition (OCR) of PDF files.
 
 
 ## Table of Contents
-  * Installation
-  * Usage
+  * [Dependencies](#dependencies)
+  * [Configuration](#configuration)
   * Issues
 
-## Installation
+<a name="dependencies"></a>
+## Dependencies
 
-  * In Linux
+To properly run this script, you will need to install three dependencies: 
+
+  * [Xpdf's pdftotext](https://www.xpdfreader.com/pdftotext-man.html)
+  * [Tesseract OCR](https://github.com/tesseract-ocr/)
+  * [ImageMagick](https://imagemagick.org/)
+
+<a name="configuration"></a>
+## Configuration
+
+Before starting the character recognition process, you will need to determine the
+input and output directories in ocr.sh. Open the file with your favorite text
+editor and call the input path (*i.e.* the directory that your files that are
+going to be OCRed are located) and output path (*i.e.* the directory that will
+receive your OCRed files) respectively.
+
