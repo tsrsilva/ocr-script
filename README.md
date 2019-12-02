@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/tsrsilva/ocr-script.svg?branch=master)](https://travis-ci.com/tsrsilva/ocr-script)
+[![codecov.io](https://codecov.io/github/tsrsilva/ocr-script/coverage.svg?branch=master)](https://codecov.io/github/tsrsilva/ocr-script?branch=master)
 
 # OCR script
 A shell script for optical character recognition (OCR) of PDF files.
