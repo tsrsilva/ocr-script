@@ -87,7 +87,7 @@ bash ocr-script.sh
 <a name="issues"></a>
 ### Issues
 
-
+The most straightforwad mechanism for asking questions, reporting problems, or requesting additions to the script is the [issue tracker](https://github.com/tsrsilva/ocr-script/issues).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0OTg5OTE2XX0=
+eyJoaXN0b3J5IjpbLTIxMjk5NDc4MzhdfQ==
 -->
