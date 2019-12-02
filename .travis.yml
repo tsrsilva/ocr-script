@@ -1,15 +1,12 @@
 language: bash
-
 sudo: required
-
 addons:
   apt:
     packages:
-      - libcurl4-openssl-dev
-      - libelf-dev
-      - libdw-dev
-      - cmake
-
+    - libcurl4-openssl-dev
+    - libelf-dev
+    - libdw-dev
+    - cmake
 after_success: |
   wget https://github.com/SimonKagstrom/kcov/archive/master.tar.gz &&
   tar xzf master.tar.gz &&
@@ -24,7 +21,7 @@ after_success: |
   mkdir -p coverage &&
   kcov coverage script.sh &&
   bash <(curl -s https://codecov.io/bash)
-
 env:
   global:
-    secure: 
+  - secure: 
+  - secure: G4mkDwpYKAj7eNNyGFRXkbY57F74kj+Pm+5TtQqhW3N42lclhgLPt+XmxEEG+SH6U74dsCKgQfv+kVAPQFFEdC35HT+e5+y4VHcyfGNX0Ql8cGRBVa3OJIz6SujU6aQyNP3jk/62c4nR09hCSJuZcGr+jNF87NZjXkH1RTw/T/NEuk0LhpqpsCMYzFXZ7zSKiOfhmVv4VPfmDAmIM+6Wdn/Pv07BkHtQ4S277rKjXeQqV1L5uS4xNarlRHDPUYNWmB+GGXlbn2t4wUxNUPnOQOQj1d8cVsp27M1qALrWFB/lRexCAmJiSgcRkozU8QS3Zr6+EQScf2e7ooJPMmAoyHrlnsRiJ9MHE004eNkvxSDyDzw9pudjgD5EF7eO7t44G7f1cqeCw1cs31iTMNmAMkztYG52WiHCxxZdMwa/BjhK54Poreo29KSwR1BmiGDjpyC8koOuF0RcpWEyiWMj9sBWXNLqlqajsPZKyU+aEa3kfGY7kehiLBMx5dEG50/G8ygx79Dqv6jO5c3R3+joOBIpky054zDow7p0zNAVFpcsc31maKRdjsyArIUtmJsMjkBb0qd7dQq43ZKOi0aJIFMKqA1tsLShGs1uoQ9iaMU0ZXqDpB/BONdafMAhN1hldSkIEf+lDU3S+s0EPdl9afdliky8Izx5WYIa35U9hEE=
