@@ -23,5 +23,4 @@ after_success: |
   bash <(curl -s https://codecov.io/bash)
 env:
   global:
-
-
+    secure: JxC4s5f+33PkecutoKd4iDQi4u8j0K2L5ch2+Q+/bz/r4ohYOkiOJpjG0icuD9lnaQz61Jn7yATL/p4iszhqVHLjQ15EBxATaS5TfwqlBM9vppCyQnXR+vrieADaczi26PMvHFYDptpcs7vAJb2ptcK/+YjkVP422/cF+pE4bX9n4kj+E+So2y46URtGxxN8TLNDBmwfs1bRbZDIcT/85hEJJv8UCEAkBNnBDDHTOjdwT36vYWsvwc2DGYOsP0wEI6ZrgUbL5U/r6COZzLH+xX3CAcKe9TT7N6fVuM674YE3wE9nz/CTgFOMbIiFckMj/LEo0j8MImXezMfToqeGHXfbYVL0LwJ+oWYAg2LmXnexJTmY62r5PO/+hB3kDK3KD4D1dWnNHJ46JcAgzfWlZPiiZpX5f58Oe3oebu6gqg8bZq2EZ+MKaYsRJkvnYaSR58jbcDUeFcj+NAH+6XL9cuiz/rYMosB5YqvbXV/hkFxjqXB7SxGfrGo+K7Mc5bmSvBYqX4+zpYPjtyV76F8qNQS/ObLqJKqWmuX+bqgt2FAu7EY0Ik1im1BEVx9h1UXendyzwqu+S9ogjPYUnsoAVXdzX/odcHN342+AA9V1Xfi6icYayznGwMXYPeWT7e67ZBLl2OO4iLF/ScFFoL+4uX9uHPxyJx5AuPs62v9sDuU=
