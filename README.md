@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.com/tsrsilva/ocr-script.svg?branch=master)](https://travis-ci.com/tsrsilva/ocr-script)
-[![codecov](https://codecov.io/gh/tsrsilva/ocr-script/branch/master/graph/badge.svg)](https://codecov.io/gh/tsrsilva/ocr-script)
 ![MIT license](https://img.shields.io/github/license/tsrsilva/ocr-script)
 
 # OCR script
@@ -17,7 +16,7 @@ A shell script for optical character recognition (OCR) of PDF files.
 <a name="dependencies"></a>
 ## Dependencies
 
-To properly run this script, you will need to install three dependencies: 
+To properly run this script, you will need to install three dependencies:
 
   * [Xpdf's pdftotext](https://www.xpdfreader.com/pdftotext-man.html)
   * [Tesseract OCR](https://github.com/tesseract-ocr/)
@@ -93,4 +92,3 @@ The most straightforwad mechanism for asking questions, reporting problems, or r
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxMjk5NDc4MzhdfQ==
 -->
-
