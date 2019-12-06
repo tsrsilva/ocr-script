@@ -2,7 +2,7 @@
 ![MIT license](https://img.shields.io/github/license/tsrsilva/ocr-script)
 
 # OCR script
-A shell script for optical character recognition (OCR) of PDF files.
+A shell script for batch optical character recognition (OCR) of PDF files.
 
 
 ## Table of Contents
