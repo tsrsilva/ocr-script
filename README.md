@@ -64,25 +64,25 @@ set execute permissions to the file and run it using **bash**.
 To set execute permissions type
 
 ```
-chmod +x ocr-script.sh
+chmod +x ocr.sh
 ```
 
 and run it using
 
 ```
-./ocr-script.sh
+./ocr.sh
 ```
 
 or
 
 ```
-sh ocr-script.sh
+sh ocr.sh
 ```
 
 or
 
 ```
-bash ocr-script.sh
+bash ocr.sh
 ```
 
 <a name="issues"></a>
